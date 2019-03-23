@@ -4,12 +4,15 @@
   "description": "Client for DancingDay",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Test command\"",
     "start": "electron ."
   },
-  "author": "",
+  "repository": "https://github.com/electron/dancing-day-client",
+  "author": "Cynthia R",
   "license": "ISC",
   "devDependencies": {
     "electron": "^4.0.4"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }
