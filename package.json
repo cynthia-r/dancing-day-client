@@ -6,7 +6,10 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/dancing-day-client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/dancing-day-client.git"
+  },
   "author": "Cynthia R",
   "license": "ISC",
   "devDependencies": {
@@ -14,5 +17,10 @@
   },
   "dependencies": {
     "jquery": "^3.3.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/electron/dancing-day-client/issues"
+  },
+  "homepage": "https://github.com/electron/dancing-day-client#readme",
+  "keywords": []
 }

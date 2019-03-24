@@ -4,11 +4,15 @@
         <title>Dancing Day</title>
       </head>
       <body>
-        <p>Estimated time:</p>
-        <div id="estimated-times">
-          <p id = "distance-result"></p>
-          <button class = "btn btn-success" id = "check-button">Check traffic</button>
-          <script src = "./view.js" ></script>
-        </div>
+        <div id="traffic_estimate_container"></div>
+
+        <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+        <!-- Load our React component. -->
+        <script src="traffic_estimate.js" type="text/babel"></script>
       </body>
 </html>
